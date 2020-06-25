@@ -237,6 +237,9 @@ html {
 html,
 body {
     height: 100%;
+    /* background: center center fixed; */
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -318,7 +321,9 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
+    /* height: 50%;
+    width: auto; */
 }
 
 figure {
